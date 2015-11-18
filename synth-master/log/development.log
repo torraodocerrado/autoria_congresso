@@ -1,0 +1,3016 @@
+# Logfile created on Fri Nov 13 16:38:38 -0200 2015
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:39:00) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 144ms (View: 136 | 200 OK [http://localhost/]
+
+
+Processing ApplicationsController#new (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:39:04) [GET]
+Rendering template within layouts/application
+Rendering applications/new
+Completed in 108ms (View: 103 | 200 OK [http://localhost/applications/new]
+
+
+Processing ApplicationsController#create (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:39:09) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "application"=>{"name"=>"congresso"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/applications
+Completed in 353ms | 302 Found [http://localhost/applications]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:39:09) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 98ms (View: 95 | 200 OK [http://localhost/applications]
+
+
+Processing ApplicationsController#activate (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:39:15) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "id"=>"congresso"}
+Redirected to http://localhost:3000/applications
+Completed in 478ms | 302 Found [http://localhost/applications/activate/congresso]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:39:15) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 84ms (View: 81 | 200 OK [http://localhost/applications]
+
+
+Processing OntologiesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:42:37) [GET]
+Rendering template within layouts/application
+Rendering ontologies/index
+Completed in 295ms (View: 238 | 200 OK [http://localhost/domain]
+
+
+Processing ClassesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:42:41) [GET]
+Rendering template within layouts/application
+Rendering resources/show
+Rendered classes/_domain_classes (67.0ms)
+Rendered classes/_meta_classes (124.0ms)
+Rendered resources/_properties (462.0ms)
+Completed in 903ms (View: 760 | 200 OK [http://localhost/classes]
+
+
+Processing OntologiesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:45:18) [GET]
+Rendering template within layouts/application
+Rendering ontologies/index
+Completed in 93ms (View: 69 | 200 OK [http://localhost/ontologies]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:45:19) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 112ms (View: 108 | 200 OK [http://localhost/home]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:45:20) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 289ms (View: 241 | 200 OK [http://localhost/navigation]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:48:13) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 45ms (View: 42 | 200 OK [http://localhost/home]
+
+
+Processing ApplicationsController#activate (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:48:17) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "id"=>"www2011"}
+Redirected to http://localhost:3000/applications
+Completed in 660ms | 302 Found [http://localhost/applications/activate/www2011]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:48:18) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 124ms (View: 115 | 200 OK [http://localhost/applications]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:48:20) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 524ms (View: 499 | 200 OK [http://localhost/navigation]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:48:26) [GET]
+  Parameters: {"id"=>"http://base#150c5860-59b8-11e0-b9e1-00264afffe1d"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 198ms (View: 189 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%23150c5860-59b8-11e0-b9e1-00264afffe1d]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:48:27) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447440507236", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#150c5860-59b8-11e0-b9e1-00264afffe1d"}
+Completed in 314ms (View: 13 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%23150c5860-59b8-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447440507236&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:48:27) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447440507317", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#150c5860-59b8-11e0-b9e1-00264afffe1d"}
+Completed in 31ms (View: 12 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%23150c5860-59b8-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447440507317&rows=10&page=1&sidx=&sord=]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:49:18) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 70ms (View: 67 | 200 OK [http://localhost/home]
+
+
+Processing ApplicationsController#activate (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:49:22) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "id"=>"congresso"}
+Redirected to http://localhost:3000/applications
+Completed in 479ms | 302 Found [http://localhost/applications/activate/congresso]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:49:23) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 35ms (View: 33 | 200 OK [http://localhost/applications]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:49:31) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 188ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:49:31) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 13416ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:49:45) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 34ms (View: 9 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:50:47) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 172ms (View: 162 | 200 OK [http://localhost/applications]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:50:52) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 298ms (View: 239 | 200 OK [http://localhost/navigation]
+
+
+Processing ContextsController#new (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:50:55) [GET]
+Rendering template within layouts/application
+Rendering contexts/new
+Completed in 100ms (View: 93 | 200 OK [http://localhost/contexts/new]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:00) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 68ms (View: 62 | 200 OK [http://localhost/]
+
+
+Processing ApplicationsController#activate (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:05) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "id"=>"www2011"}
+Redirected to http://localhost:3000/applications
+Completed in 736ms | 302 Found [http://localhost/applications/activate/www2011]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:06) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 344ms (View: 270 | 200 OK [http://localhost/applications]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:11) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 1606ms (View: 1558 | 200 OK [http://localhost/navigation]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:19) [GET]
+  Parameters: {"id"=>"http://base#d7c230b0-59b7-11e0-b9e1-00264afffe1d"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 257ms (View: 244 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%23d7c230b0-59b7-11e0-b9e1-00264afffe1d]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:20) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447440740175", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#d7c230b0-59b7-11e0-b9e1-00264afffe1d"}
+Completed in 312ms (View: 22 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%23d7c230b0-59b7-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447440740175&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:20) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447440740258", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#d7c230b0-59b7-11e0-b9e1-00264afffe1d"}
+Completed in 165ms (View: 24 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%23d7c230b0-59b7-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447440740258&rows=10&page=1&sidx=&sord=]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:33) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 64ms (View: 61 | 200 OK [http://localhost/home]
+
+
+Processing ApplicationsController#activate (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:40) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "id"=>"congresso"}
+Redirected to http://localhost:3000/applications
+Completed in 404ms | 302 Found [http://localhost/applications/activate/congresso]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:41) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 65ms (View: 62 | 200 OK [http://localhost/applications]
+
+
+Processing ContextsController#new (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:51) [GET]
+Rendering template within layouts/application
+Rendering contexts/new
+Completed in 52ms (View: 49 | 200 OK [http://localhost/contexts/new]
+
+
+Processing OntologiesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:54) [GET]
+Rendering template within layouts/application
+Rendering ontologies/index
+Completed in 88ms (View: 70 | 200 OK [http://localhost/domain]
+
+
+Processing ResourcesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:52:57) [GET]
+Rendering template within layouts/application
+Rendering resources/index
+Rendered resources/_domain_classes (22.0ms)
+Rendered resources/_meta_classes (37.0ms)
+Completed in 151ms (View: 93 | 200 OK [http://localhost/resources]
+
+
+Processing ResourcesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:54:26) [GET]
+  Parameters: {"type"=>"http://xmlns.com/foaf/0.1/Agent"}
+Rendering template within layouts/application
+Rendering resources/index
+Rendered resources/_domain_classes (28.0ms)
+Rendered resources/_meta_classes (56.0ms)
+Completed in 21763ms (View: 21644 | 200 OK [http://localhost/resources?type=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FAgent]
+
+
+Processing ResourcesController#show (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:55:13) [GET]
+  Parameters: {"id"=>"http://127.0.0.1:3333/ABEL_SALVADOR_MESQUITA_JUNIOR"}
+Rendering template within layouts/application
+Rendering resources/show
+Rendered resources/_domain_classes (10.0ms)
+Rendered resources/_meta_classes (9.0ms)
+Rendered resources/_properties (284.0ms)
+Completed in 366ms (View: 343 | 200 OK [http://localhost/resources/http:%2F%2F127.0.0.1:3333%2FABEL_SALVADOR_MESQUITA_JUNIOR]
+
+
+Processing ContextsController#create (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:55:36) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "context"=>{"context_name"=>"Agent", "context_title"=>"Agent", "context_query"=>"selects {\r\na foaf:Agent\r\norder FOAF::name\r\n}"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/contexts/edit/http:%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7
+Completed in 727ms | 302 Found [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:55:37) [GET]
+  Parameters: {"id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 66ms (View: 62 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:55:37) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447440937860", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 57ms (View: 20 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447440937860&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:55:38) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447440937890", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 13ms (View: 4 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447440937890&rows=10&page=1&sidx=&sord=]
+
+
+Processing AbstractInterfacesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:55:48) [GET]
+Rendering template within layouts/application
+Rendering abstract_interfaces/index
+Completed in 435ms (View: 411 | 200 OK [http://localhost/interface]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:55:54) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 99ms (View: 88 | 200 OK [http://localhost/navigation]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:55:56) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 116ms (View: 90 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#new (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:56:00) [GET]
+Rendering template within layouts/application
+Rendering landmarks/new
+Completed in 400ms (View: 83 | 200 OK [http://localhost/landmarks/new]
+
+
+Processing LandmarksController#create (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:56:26) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "landmark"=>{"landmark_name"=>"Agent", "landmark_position"=>"", "type"=>"context_anchor"}, "index_anchor_navigation_attribute"=>{"index_anchor_navigation_attribute_label_expression"=>"", "index_anchor_navigation_attribute_target_index"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}, "context_anchor_navigation_attribute"=>{"context_anchor_navigation_attribute_label_expression"=>"Agent", "context_anchor_navigation_attribute_target_context"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7", "context_anchor_navigation_attribute_target_node_expression"=>""}, "commit"=>"Create"}
+Redirected to http://localhost:3000/landmarks/edit/http:%2F%2Fbase%233d9cdc40-8a38-11e5-a8a1-b8ca3afeccc7
+Completed in 277ms | 302 Found [http://localhost/landmarks]
+
+
+Processing LandmarksController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:56:26) [GET]
+  Parameters: {"id"=>"http://base#3d9cdc40-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering landmarks/edit
+Completed in 453ms (View: 120 | 200 OK [http://localhost/landmarks/edit/http:%2F%2Fbase%233d9cdc40-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing LandmarksController#target_context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:56:27) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447440987135", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#3daa70d0-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 25ms (View: 10 | 200 OK [http://localhost/landmarks/target_context_parameters/http%3A%2F%2Fbase%233daa70d0-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447440987135&rows=10&page=1&sidx=&sord=]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:56:29) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 72ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:56:30) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 9322ms (View: 2 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:56:39) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 37ms (View: 8 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#context (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:56:42) [GET]
+  Parameters: {"id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 39ms (View: 5 | 200 OK [http://localhost/execute/context/http%3A%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:56:59) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 73ms (View: 60 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:57:02) [GET]
+  Parameters: {"id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 61ms (View: 58 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:57:02) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441022632", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 66ms (View: 12 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447441022632&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:57:02) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441022659", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 16ms (View: 6 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447441022659&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#update (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:57:10) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7", "context"=>{"context_name"=>"Agent", "context_title"=>"Agent", "context_query"=>"selects {\r\na foaf:Agent\r\n}"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/contexts
+Completed in 91ms | 302 Found [http://localhost/contexts/update]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:57:10) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 88ms (View: 73 | 200 OK [http://localhost/contexts]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:57:14) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 69ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:57:14) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8540ms (View: 3 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:57:23) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 38ms (View: 7 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:57:36) [GET]
+  Parameters: {"id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 48ms (View: 43 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:57:36) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441056349", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 48ms (View: 13 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447441056349&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:57:36) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441056381", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 18ms (View: 9 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447441056381&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#update (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:58:15) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7", "context"=>{"context_name"=>"Agent", "context_title"=>"Agent", "context_query"=>"selects {\r\na FOAF:Agent\r\n}"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/contexts
+Completed in 99ms | 302 Found [http://localhost/contexts/update]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:58:16) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 86ms (View: 75 | 200 OK [http://localhost/contexts]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:58:20) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 64ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:58:20) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8404ms (View: 2 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:58:28) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 44ms (View: 5 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#context (for 0:0:0:0:0:0:0:1 at 2015-11-13 16:58:31) [GET]
+  Parameters: {"id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 164482ms (View: 2 | 200 OK [http://localhost/execute/context/http%3A%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:01:15) [GET]
+  Parameters: {"klass"=>{"resource"=>"http://xmlns.com/foaf/0.1/Agent"}, "id"=>"http://base#20e43ad0-e083-11df-aab6-00264afffe1d"}
+Completed in 1038ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2320e43ad0-e083-11df-aab6-00264afffe1d?klass%5Bresource%5D=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FAgent]
+
+
+Processing ExecuteController#context (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:01:16) [GET]
+  Parameters: {"node"=>"http://xmlns.com/foaf/0.1/Agent", "id"=>"http://base#153ddbb0-e082-11df-aab6-00264afffe1d"}
+Completed in 2722ms (View: 1 | 200 OK [http://localhost/execute/context/http%3A%2F%2Fbase%23153ddbb0-e082-11df-aab6-00264afffe1d?node=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FAgent]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:01:19) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 28ms (View: 13 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:02:03) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 349ms (View: 281 | 200 OK [http://localhost/landmarks]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:02:05) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 98ms (View: 92 | 200 OK [http://localhost/home]
+
+
+Processing ApplicationsController#activate (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:02:12) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "id"=>"www2011"}
+Redirected to http://localhost:3000/applications
+Completed in 540ms | 302 Found [http://localhost/applications/activate/www2011]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:02:13) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 96ms (View: 93 | 200 OK [http://localhost/applications]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:02:19) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%2384f5cd60-59bc-11e0-b9e1-00264afffe1d
+Completed in 151ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:02:19) [GET]
+  Parameters: {"id"=>"http://base#84f5cd60-59bc-11e0-b9e1-00264afffe1d"}
+Completed in 31596ms (View: 4 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2384f5cd60-59bc-11e0-b9e1-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:02:51) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 92ms (View: 9 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:04:20) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 280ms (View: 264 | 200 OK [http://localhost/navigation]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:04:22) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 96ms (View: 87 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:04:25) [GET]
+  Parameters: {"id"=>"http://base#a6a9db10-59bf-11e0-b9e1-00264afffe1d"}
+Rendering template within layouts/application
+Rendering landmarks/edit
+Completed in 826ms (View: 143 | 200 OK [http://localhost/landmarks/edit/http:%2F%2Fbase%23a6a9db10-59bf-11e0-b9e1-00264afffe1d]
+
+
+Processing LandmarksController#target_index_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:04:27) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441467075", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#a6b80be0-59bf-11e0-b9e1-00264afffe1d"}
+Completed in 17ms (View: 7 | 200 OK [http://localhost/landmarks/target_index_parameters/http%3A%2F%2Fbase%23a6b80be0-59bf-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441467075&rows=10&page=1&sidx=&sord=]
+
+
+Processing InContextClassesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:05:34) [GET]
+Rendering template within layouts/application
+Rendering in_context_classes/index
+Completed in 241ms (View: 235 | 200 OK [http://localhost/in_context_classes]
+
+
+Processing InContextClassesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:05:39) [GET]
+  Parameters: {"id"=>"http://base#3a4ed540-59c1-11e0-b9e1-00264afffe1d"}
+Rendering template within layouts/application
+Rendering in_context_classes/edit
+Completed in 2768ms (View: 2268 | 200 OK [http://localhost/in_context_classes/edit/http:%2F%2Fbase%233a4ed540-59c1-11e0-b9e1-00264afffe1d]
+
+
+Processing InContextClassesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:05:42) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441542206", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#3a4ed540-59c1-11e0-b9e1-00264afffe1d"}
+Completed in 366ms (View: 7 | 200 OK [http://localhost/in_context_classes/index_attributes/http%3A%2F%2Fbase%233a4ed540-59c1-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441542206&rows=10&page=1&sidx=&sord=]
+
+
+Processing InContextClassesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:05:42) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441542249", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#3a4ed540-59c1-11e0-b9e1-00264afffe1d"}
+Completed in 42ms (View: 19 | 200 OK [http://localhost/in_context_classes/context_anchor_attributes/http%3A%2F%2Fbase%233a4ed540-59c1-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441542249&rows=10&page=1&sidx=&sord=]
+
+
+Processing InContextClassesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:05:42) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441542324", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#3a4ed540-59c1-11e0-b9e1-00264afffe1d"}
+Completed in 19ms (View: 8 | 200 OK [http://localhost/in_context_classes/index_anchor_attributes/http%3A%2F%2Fbase%233a4ed540-59c1-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441542324&rows=10&page=1&sidx=&sord=]
+
+
+Processing InContextClassesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:05:42) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441542357", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#3a4ed540-59c1-11e0-b9e1-00264afffe1d"}
+Completed in 205ms (View: 6 | 200 OK [http://localhost/in_context_classes/computed_attributes/http%3A%2F%2Fbase%233a4ed540-59c1-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441542357&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:06:33) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 216ms (View: 205 | 200 OK [http://localhost/indexes]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:06:38) [GET]
+  Parameters: {"id"=>"http://base#84f5cd60-59bc-11e0-b9e1-00264afffe1d"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 2607ms (View: 2209 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%2384f5cd60-59bc-11e0-b9e1-00264afffe1d]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:06:41) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441601105", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#84f5cd60-59bc-11e0-b9e1-00264afffe1d"}
+Completed in 30ms (View: 9 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2384f5cd60-59bc-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441601105&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:06:41) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441601138", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#84f5cd60-59bc-11e0-b9e1-00264afffe1d"}
+Completed in 241ms (View: 5 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2384f5cd60-59bc-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441601138&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:06:41) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441601188", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#84f5cd60-59bc-11e0-b9e1-00264afffe1d"}
+Completed in 18ms (View: 4 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%2384f5cd60-59bc-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441601188&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:06:41) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441601242", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#84f5cd60-59bc-11e0-b9e1-00264afffe1d"}
+Completed in 285ms (View: 4 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%2384f5cd60-59bc-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441601242&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:06:41) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441601283", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#84f5cd60-59bc-11e0-b9e1-00264afffe1d"}
+Completed in 14ms (View: 6 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%2384f5cd60-59bc-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441601283&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:07:12) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 156ms (View: 137 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:07:15) [GET]
+  Parameters: {"id"=>"http://base#d7c230b0-59b7-11e0-b9e1-00264afffe1d"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 68ms (View: 64 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%23d7c230b0-59b7-11e0-b9e1-00264afffe1d]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:07:16) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441636024", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#d7c230b0-59b7-11e0-b9e1-00264afffe1d"}
+Completed in 36ms (View: 20 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%23d7c230b0-59b7-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441636024&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:07:16) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441636057", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#d7c230b0-59b7-11e0-b9e1-00264afffe1d"}
+Completed in 14ms (View: 5 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%23d7c230b0-59b7-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441636057&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:07:39) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 147ms (View: 140 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:07:45) [GET]
+  Parameters: {"id"=>"http://base#150c5860-59b8-11e0-b9e1-00264afffe1d"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 55ms (View: 52 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%23150c5860-59b8-11e0-b9e1-00264afffe1d]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:07:45) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441665510", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#150c5860-59b8-11e0-b9e1-00264afffe1d"}
+Completed in 142ms (View: 8 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%23150c5860-59b8-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441665510&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:07:45) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441665539", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#150c5860-59b8-11e0-b9e1-00264afffe1d"}
+Completed in 15ms (View: 4 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%23150c5860-59b8-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447441665539&rows=10&page=1&sidx=&sord=]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:08:08) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 39ms (View: 37 | 200 OK [http://localhost/home]
+
+
+Processing ApplicationsController#activate (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:08:12) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "id"=>"congresso"}
+Redirected to http://localhost:3000/applications
+Completed in 281ms | 302 Found [http://localhost/applications/activate/congresso]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:08:12) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 31ms (View: 28 | 200 OK [http://localhost/applications]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:08:17) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 93ms (View: 82 | 200 OK [http://localhost/navigation]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:08:18) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 78ms (View: 67 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:08:21) [GET]
+  Parameters: {"id"=>"http://base#3d9cdc40-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering landmarks/edit
+Completed in 431ms (View: 111 | 200 OK [http://localhost/landmarks/edit/http:%2F%2Fbase%233d9cdc40-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing LandmarksController#target_context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:08:21) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441701848", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#3daa70d0-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 18ms (View: 5 | 200 OK [http://localhost/landmarks/target_context_parameters/http%3A%2F%2Fbase%233daa70d0-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447441701848&rows=10&page=1&sidx=&sord=]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:09:56) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 60ms (View: 50 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#new (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:09:59) [GET]
+Rendering template within layouts/application
+Rendering landmarks/new
+Completed in 382ms (View: 96 | 200 OK [http://localhost/landmarks/new]
+
+
+Processing LandmarksController#create (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:10:24) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "landmark"=>{"landmark_name"=>"AgentForIndex", "landmark_position"=>"2", "type"=>"index_anchor"}, "index_anchor_navigation_attribute"=>{"index_anchor_navigation_attribute_label_expression"=>"Agent Index", "index_anchor_navigation_attribute_target_index"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}, "context_anchor_navigation_attribute"=>{"context_anchor_navigation_attribute_label_expression"=>"", "context_anchor_navigation_attribute_target_context"=>"http://shdm#anyContext", "context_anchor_navigation_attribute_target_node_expression"=>""}, "commit"=>"Create"}
+Redirected to http://localhost:3000/landmarks/edit/http:%2F%2Fbase%2331158ba0-8a3a-11e5-86ac-b8ca3afeccc7
+Completed in 421ms | 302 Found [http://localhost/landmarks]
+
+
+Processing LandmarksController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:10:24) [GET]
+  Parameters: {"id"=>"http://base#31158ba0-8a3a-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering landmarks/edit
+Completed in 414ms (View: 135 | 200 OK [http://localhost/landmarks/edit/http:%2F%2Fbase%2331158ba0-8a3a-11e5-86ac-b8ca3afeccc7]
+
+
+Processing LandmarksController#target_index_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:10:25) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447441825216", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#313596c0-8a3a-11e5-86ac-b8ca3afeccc7"}
+Completed in 13ms (View: 5 | 200 OK [http://localhost/landmarks/target_index_parameters/http%3A%2F%2Fbase%23313596c0-8a3a-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447441825216&rows=10&page=1&sidx=&sord=]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:10:27) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 88ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:10:27) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8635ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:10:36) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 31ms (View: 5 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:10:40) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 74573ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:11:55) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 13ms (View: 4 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:11:55) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 41ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:53:51) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 98ms (View: 80 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#new (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:53:57) [GET]
+Rendering template within layouts/application
+Rendering contexts/new
+Completed in 28ms (View: 26 | 200 OK [http://localhost/contexts/new]
+
+
+Processing ContextsController#create (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:54:42) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "context"=>{"context_name"=>"allPerson", "context_title"=>"Person", "context_query"=>"selects {\r\na FOAF:Person\r\norder FOAF:name\r\n}"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/contexts/edit/http:%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7
+Completed in 535ms | 302 Found [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:54:42) [GET]
+  Parameters: {"id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 83ms (View: 80 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:54:43) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447444483344", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 45ms (View: 5 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447444483344&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:54:43) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447444483377", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 17ms (View: 7 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447444483377&rows=10&page=1&sidx=&sord=]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:54:50) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 101ms (View: 91 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#new (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:54:53) [GET]
+Rendering template within layouts/application
+Rendering landmarks/new
+Completed in 565ms (View: 85 | 200 OK [http://localhost/landmarks/new]
+
+
+Processing LandmarksController#create (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:55:18) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "landmark"=>{"landmark_name"=>"Person", "landmark_position"=>"1", "type"=>"index_anchor"}, "index_anchor_navigation_attribute"=>{"index_anchor_navigation_attribute_label_expression"=>"'Person'", "index_anchor_navigation_attribute_target_index"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}, "context_anchor_navigation_attribute"=>{"context_anchor_navigation_attribute_label_expression"=>"", "context_anchor_navigation_attribute_target_context"=>"http://shdm#anyContext", "context_anchor_navigation_attribute_target_node_expression"=>""}, "commit"=>"Create"}
+Redirected to http://localhost:3000/landmarks/edit/http:%2F%2Fbase%23775f1c10-8a40-11e5-86ac-b8ca3afeccc7
+Completed in 216ms | 302 Found [http://localhost/landmarks]
+
+
+Processing LandmarksController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:55:19) [GET]
+  Parameters: {"id"=>"http://base#775f1c10-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering landmarks/edit
+Completed in 508ms (View: 189 | 200 OK [http://localhost/landmarks/edit/http:%2F%2Fbase%23775f1c10-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing LandmarksController#target_index_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:55:20) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447444520109", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#7769f180-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 17ms (View: 5 | 200 OK [http://localhost/landmarks/target_index_parameters/http%3A%2F%2Fbase%237769f180-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447444520109&rows=10&page=1&sidx=&sord=]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:55:22) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 66ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:55:22) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8423ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:55:30) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 25ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:55:33) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 270ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:55:56) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 86ms (View: 77 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:55:59) [GET]
+  Parameters: {"id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 49ms (View: 45 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:56:00) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447444560302", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 13ms (View: 5 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447444560302&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:56:00) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447444560335", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 13ms (View: 4 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447444560335&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#update (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:58:10) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7", "context"=>{"context_name"=>"allPerson", "context_title"=>"Person", "context_query"=>"selects {\r\na FOAF:Person\r\n}"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/contexts
+Completed in 112ms | 302 Found [http://localhost/contexts/update]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:58:10) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 112ms (View: 101 | 200 OK [http://localhost/contexts]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:58:15) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 101ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:58:15) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 11017ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 17:58:26) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 29ms (View: 9 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:00:56) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 18ms (View: 5 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:00:56) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 20ms (View: 5 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:00:59) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 78543ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:02:18) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 192ms (View: 148 | 200 OK [http://localhost/landmarks]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:02:18) [GET]
+  Parameters: {"id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 51ms (View: 48 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:02:18) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 61ms (View: 16 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:02:19) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447444939051", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 23ms (View: 10 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447444939051&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:02:19) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447444939088", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 13ms (View: 5 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447444939088&rows=10&page=1&sidx=&sord=]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:02:55) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 92ms (View: 83 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:01) [GET]
+  Parameters: {"id"=>"http://base#3d9cdc40-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering landmarks/edit
+Completed in 448ms (View: 83 | 200 OK [http://localhost/landmarks/edit/http:%2F%2Fbase%233d9cdc40-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing LandmarksController#target_context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:02) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447444982267", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#3daa70d0-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 13ms (View: 6 | 200 OK [http://localhost/landmarks/target_context_parameters/http%3A%2F%2Fbase%233daa70d0-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447444982267&rows=10&page=1&sidx=&sord=]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:19) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 114ms (View: 97 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#destroy (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:23) [DELETE]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "id"=>"http://base#3d9cdc40-8a38-11e5-a8a1-b8ca3afeccc7"}
+Redirected to http://localhost:3000/landmarks
+Completed in 133ms | 302 Found [http://localhost/landmarks/destroy/http:%2F%2Fbase%233d9cdc40-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:23) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 96ms (View: 85 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#new (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:25) [GET]
+Rendering template within layouts/application
+Rendering landmarks/new
+Completed in 549ms (View: 91 | 200 OK [http://localhost/landmarks/new]
+
+
+Processing LandmarksController#create (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:38) [POST]
+  Parameters: {"authenticity_token"=>"bOHU7sIeJy+h+Jz3ECwcJcws/FKnws4+zwoiKgAApOg=", "landmark"=>{"landmark_name"=>"Agent", "landmark_position"=>"1", "type"=>"index_anchor"}, "index_anchor_navigation_attribute"=>{"index_anchor_navigation_attribute_label_expression"=>"'Agent'", "index_anchor_navigation_attribute_target_index"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}, "context_anchor_navigation_attribute"=>{"context_anchor_navigation_attribute_label_expression"=>"", "context_anchor_navigation_attribute_target_context"=>"http://shdm#anyContext", "context_anchor_navigation_attribute_target_node_expression"=>""}, "commit"=>"Create"}
+Redirected to http://localhost:3000/landmarks/edit/http:%2F%2Fbase%23a14a3310-8a41-11e5-86ac-b8ca3afeccc7
+Completed in 209ms | 302 Found [http://localhost/landmarks]
+
+
+Processing LandmarksController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:39) [GET]
+  Parameters: {"id"=>"http://base#a14a3310-8a41-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering landmarks/edit
+Completed in 550ms (View: 83 | 200 OK [http://localhost/landmarks/edit/http:%2F%2Fbase%23a14a3310-8a41-11e5-86ac-b8ca3afeccc7]
+
+
+Processing LandmarksController#target_index_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:39) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447445019898", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#a153d000-8a41-11e5-86ac-b8ca3afeccc7"}
+Completed in 56ms (View: 8 | 200 OK [http://localhost/landmarks/target_index_parameters/http%3A%2F%2Fbase%23a153d000-8a41-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447445019898&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:41) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 141ms (View: 115 | 200 OK [http://localhost/indexes]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:44) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 1512ms (View: 1283 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:46) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447445026275", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 65ms (View: 16 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447445026275&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:46) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447445026312", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 301ms (View: 5 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447445026312&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:46) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447445026363", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 33ms (View: 5 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447445026363&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:46) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447445026402", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 14ms (View: 6 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447445026402&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:03:46) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447445026456", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 15ms (View: 4 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447445026456&rows=10&page=1&sidx=&sord=]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:04:03) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 71ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:04:04) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 9603ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:04:13) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 119ms (View: 5 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:04:19) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 91894ms (View: 2 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:05:51) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 20ms (View: 5 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:16:41) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 27ms (View: 8 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:16:41) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 24ms (View: 7 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:16:58) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 77805ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:18:16) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 21ms (View: 5 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#context (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:18:37) [GET]
+  Parameters: {"node"=>"http://www.w3.org/1999/02/22-rdf-syntax-ns#_40", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 167932ms (View: 1 | 200 OK [http://localhost/execute/context/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?node=http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23_40]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 18:21:25) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 16ms (View: 6 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing IndexesController#get_resource_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:42:41) [GET]
+  Parameters: {"id"=>"http___base_206093b0-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 103ms (View: 6 | 200 OK [http://localhost/indexes/get_resource_attributes/http___base_206093b0-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing IndexesController#get_resource_children_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:42:42) [GET]
+  Parameters: {"children_attribute"=>"context_anchor_navigation_attribute_target_parameters", "id"=>"http___base_206093b0-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 20ms (View: 7 | 200 OK [http://localhost/indexes/get_resource_children_attributes/http___base_206093b0-8a38-11e5-a8a1-b8ca3afeccc7?children_attribute=context_anchor_navigation_attribute_target_parameters]
+
+
+Processing IndexesController#context_anchor_attributes_post_data (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:43:02) [POST]
+  Parameters: {"navigation_attribute_name"=>"Default Label", "context_anchor_navigation_attribute_label_expression"=>"label = self.foaf::name\n      unless label.nil? || label.to_a.empty?\n        label\n      else\n        self.compact_uri\n      end\n    ", "context_anchor_navigation_attribute_target_context"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7", "context_anchor_navigation_attribute_target_node_expression"=>"self", "navigation_attribute_index_position"=>"1", "id"=>"http://base#206093b0-8a38-11e5-a8a1-b8ca3afeccc7", "parent"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 142ms (View: 5 | 200 OK [http://localhost/indexes/context_anchor_attributes_post_data?parent=http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:43:03) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447450983139", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 185ms (View: 5 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447450983139&rows=10&page=1&sidx=&sord=]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:43:06) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 67ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:43:06) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8760ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:43:15) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 23ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:43:18) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 83854ms (View: 2 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing OntologiesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:44:42) [GET]
+Rendering template within layouts/application
+Rendering ontologies/index
+Completed in 30ms (View: 20 | 200 OK [http://localhost/domain]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:44:42) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 24ms (View: 8 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:44:42) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 19ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ClassesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:44:46) [GET]
+Rendering template within layouts/application
+Rendering resources/show
+Rendered classes/_domain_classes (7.0ms)
+Rendered classes/_meta_classes (15.0ms)
+Rendered resources/_properties (62.0ms)
+Completed in 144ms (View: 118 | 200 OK [http://localhost/classes]
+
+
+Processing ClassesController#show (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:44:53) [GET]
+  Parameters: {"id"=>"http://www.owl-ontologies.com/ParliamentOntology.owl#Presidency"}
+Rendering template within layouts/application
+Rendering resources/show
+Rendered classes/_domain_classes (6.0ms)
+Rendered classes/_meta_classes (12.0ms)
+Rendered resources/_properties (31.0ms)
+Completed in 93ms (View: 68 | 200 OK [http://localhost/classes/http:%2F%2Fwww.owl-ontologies.com%2FParliamentOntology.owl%23Presidency]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:45:12) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 17ms (View: 4 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:45:12) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 20ms (View: 6 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:45:25) [GET]
+  Parameters: {"klass"=>{"resource"=>"http://www.owl-ontologies.com/ParliamentOntology.owl#Presidency"}, "id"=>"http://base#20e43ad0-e083-11df-aab6-00264afffe1d"}
+Completed in 311ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2320e43ad0-e083-11df-aab6-00264afffe1d?klass%5Bresource%5D=http%3A%2F%2Fwww.owl-ontologies.com%2FParliamentOntology.owl%23Presidency]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:45:25) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 21ms (View: 6 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:45:37) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 18ms (View: 5 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:45:37) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 20ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:45:50) [GET]
+  Parameters: {"klass"=>{"resource"=>"http://xmlns.com/foaf/0.1/Agent"}, "id"=>"http://base#20e43ad0-e083-11df-aab6-00264afffe1d"}
+Completed in 894ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2320e43ad0-e083-11df-aab6-00264afffe1d?klass%5Bresource%5D=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FAgent]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:45:51) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 35ms (View: 8 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ClassesController#show (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:49:44) [GET]
+  Parameters: {"id"=>"http://xmlns.com/foaf/0.1/Agent"}
+Rendering template within layouts/application
+Rendering resources/show
+Rendered classes/_domain_classes (5.0ms)
+Rendered classes/_meta_classes (15.0ms)
+Rendered resources/_properties (27.0ms)
+Completed in 158ms (View: 82 | 200 OK [http://localhost/classes/http:%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FAgent]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:50:01) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 88ms (View: 77 | 200 OK [http://localhost/navigation]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:50:03) [GET]
+  Parameters: {"id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 43ms (View: 39 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:50:04) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451404324", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 28ms (View: 13 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451404324&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:50:04) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451404355", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 11ms (View: 5 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2320356500-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451404355&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#update (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:50:13) [POST]
+  Parameters: {"authenticity_token"=>"nkKTGQgADQbT8aRMuKG8xAX262kpbF+l+FJcdHYiRlY=", "id"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7", "context"=>{"context_name"=>"Agent", "context_title"=>"Agent", "context_query"=>"selects {\r\na foaf:Agent\r\n}"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/contexts
+Completed in 89ms | 302 Found [http://localhost/contexts/update]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:50:13) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 95ms (View: 84 | 200 OK [http://localhost/contexts]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:50:18) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 79701ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:51:38) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 453ms (View: 360 | 200 OK [http://localhost/indexes]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:51:39) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 113ms (View: 11 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:53:23) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 1419ms (View: 1185 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:53:24) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451604947", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 21ms (View: 9 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451604947&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:53:25) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451604978", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 218ms (View: 5 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451604978&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:53:25) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451605015", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 25ms (View: 14 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451605015&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:53:25) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451605048", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 17ms (View: 5 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451605048&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:53:25) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451605086", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 13ms (View: 5 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451605086&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:54:04) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 80ms (View: 72 | 200 OK [http://localhost/indexes]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:54:33) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 1344ms (View: 1144 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:54:35) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451675208", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 24ms (View: 8 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451675208&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:54:35) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451675241", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 292ms (View: 5 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451675241&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:54:35) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451675275", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 27ms (View: 13 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451675275&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:54:35) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451675322", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 11ms (View: 4 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451675322&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:54:35) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451675359", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 14ms (View: 6 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451675359&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#get_resource_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:54:46) [GET]
+  Parameters: {"id"=>"http___base_206093b0-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 95ms (View: 5 | 200 OK [http://localhost/indexes/get_resource_attributes/http___base_206093b0-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing IndexesController#get_resource_children_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:54:46) [GET]
+  Parameters: {"children_attribute"=>"context_anchor_navigation_attribute_target_parameters", "id"=>"http___base_206093b0-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 27ms (View: 15 | 200 OK [http://localhost/indexes/get_resource_children_attributes/http___base_206093b0-8a38-11e5-a8a1-b8ca3afeccc7?children_attribute=context_anchor_navigation_attribute_target_parameters]
+
+
+Processing IndexesController#context_anchor_attributes_post_data (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:05) [POST]
+  Parameters: {"navigation_attribute_name"=>"Default Label", "context_anchor_navigation_attribute_label_expression"=>"self.foaf::name\n    ", "context_anchor_navigation_attribute_target_context"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7", "context_anchor_navigation_attribute_target_node_expression"=>"self", "navigation_attribute_index_position"=>"1", "id"=>"http://base#206093b0-8a38-11e5-a8a1-b8ca3afeccc7", "parent"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 94ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes_post_data?parent=http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:05) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451705682", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 193ms (View: 7 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451705682&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#get_resource_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:13) [GET]
+  Parameters: {"id"=>"http___base_206093b0-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 81ms (View: 5 | 200 OK [http://localhost/indexes/get_resource_attributes/http___base_206093b0-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing IndexesController#get_resource_children_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:13) [GET]
+  Parameters: {"children_attribute"=>"context_anchor_navigation_attribute_target_parameters", "id"=>"http___base_206093b0-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 27ms (View: 13 | 200 OK [http://localhost/indexes/get_resource_children_attributes/http___base_206093b0-8a38-11e5-a8a1-b8ca3afeccc7?children_attribute=context_anchor_navigation_attribute_target_parameters]
+
+
+Processing IndexesController#context_anchor_attributes_post_data (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:27) [POST]
+  Parameters: {"navigation_attribute_name"=>"Label", "context_anchor_navigation_attribute_label_expression"=>"self.foaf::name\n    ", "context_anchor_navigation_attribute_target_context"=>"http://base#20356500-8a38-11e5-a8a1-b8ca3afeccc7", "context_anchor_navigation_attribute_target_node_expression"=>"self", "navigation_attribute_index_position"=>"1", "id"=>"http://base#206093b0-8a38-11e5-a8a1-b8ca3afeccc7", "parent"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 128ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes_post_data?parent=http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:27) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451727753", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 177ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451727753&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:35) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 91ms (View: 80 | 200 OK [http://localhost/contexts]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:37) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 109ms (View: 98 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:39) [GET]
+  Parameters: {"id"=>"http://base#a14a3310-8a41-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering landmarks/edit
+Completed in 405ms (View: 68 | 200 OK [http://localhost/landmarks/edit/http:%2F%2Fbase%23a14a3310-8a41-11e5-86ac-b8ca3afeccc7]
+
+
+Processing LandmarksController#target_index_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:40) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451740517", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#a153d000-8a41-11e5-86ac-b8ca3afeccc7"}
+Completed in 15ms (View: 6 | 200 OK [http://localhost/landmarks/target_index_parameters/http%3A%2F%2Fbase%23a153d000-8a41-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447451740517&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:46) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 85ms (View: 73 | 200 OK [http://localhost/indexes]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:49) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 78ms (View: 68 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:54) [GET]
+  Parameters: {"id"=>"http://base#153ddbb0-e082-11df-aab6-00264afffe1d"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 45ms (View: 42 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%23153ddbb0-e082-11df-aab6-00264afffe1d]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:55) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451755036", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#153ddbb0-e082-11df-aab6-00264afffe1d"}
+Completed in 23ms (View: 5 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%23153ddbb0-e082-11df-aab6-00264afffe1d?q=1&_search=false&nd=1447451755036&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:55) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451755063", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#153ddbb0-e082-11df-aab6-00264afffe1d"}
+Completed in 20ms (View: 14 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%23153ddbb0-e082-11df-aab6-00264afffe1d?q=1&_search=false&nd=1447451755063&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:55:58) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 74ms (View: 67 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:01) [GET]
+  Parameters: {"id"=>"http://base#9365c360-ea99-11df-9f84-00264afffe1d"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 54ms (View: 52 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%239365c360-ea99-11df-9f84-00264afffe1d]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:01) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451761712", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#9365c360-ea99-11df-9f84-00264afffe1d"}
+Completed in 111ms (View: 5 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%239365c360-ea99-11df-9f84-00264afffe1d?q=1&_search=false&nd=1447451761712&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:01) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451761741", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#9365c360-ea99-11df-9f84-00264afffe1d"}
+Completed in 28ms (View: 9 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%239365c360-ea99-11df-9f84-00264afffe1d?q=1&_search=false&nd=1447451761741&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:05) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 78ms (View: 71 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:07) [GET]
+  Parameters: {"id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 44ms (View: 42 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:08) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451768085", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 48ms (View: 11 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447451768085&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:08) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451768113", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 13ms (View: 5 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447451768113&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:12) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 74ms (View: 66 | 200 OK [http://localhost/contexts]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:13) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 88ms (View: 81 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:16) [GET]
+  Parameters: {"id"=>"http://base#775f1c10-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering landmarks/edit
+Completed in 464ms (View: 95 | 200 OK [http://localhost/landmarks/edit/http:%2F%2Fbase%23775f1c10-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing LandmarksController#target_index_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:17) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451777080", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#7769f180-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 14ms (View: 5 | 200 OK [http://localhost/landmarks/target_index_parameters/http%3A%2F%2Fbase%237769f180-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447451777080&rows=10&page=1&sidx=&sord=]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:21) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 86ms (View: 80 | 200 OK [http://localhost/landmarks]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:22) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 118ms (View: 99 | 200 OK [http://localhost/indexes]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:26) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 1278ms (View: 1079 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:27) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451787667", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 20ms (View: 8 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447451787667&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:27) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451787702", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 297ms (View: 5 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447451787702&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:28) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451787740", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 15ms (View: 8 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447451787740&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:28) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451787812", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 12ms (View: 4 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447451787812&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:28) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451787783", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 15ms (View: 8 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447451787783&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#get_resource_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:29) [GET]
+  Parameters: {"id"=>"http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 99ms (View: 6 | 200 OK [http://localhost/indexes/get_resource_attributes/http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#get_resource_children_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:29) [GET]
+  Parameters: {"children_attribute"=>"context_anchor_navigation_attribute_target_parameters", "id"=>"http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 13ms (View: 7 | 200 OK [http://localhost/indexes/get_resource_children_attributes/http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7?children_attribute=context_anchor_navigation_attribute_target_parameters]
+
+
+Processing IndexesController#context_anchor_attributes_post_data (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:55) [POST]
+  Parameters: {"navigation_attribute_name"=>"Default Label", "context_anchor_navigation_attribute_label_expression"=>"self.foaf::name", "context_anchor_navigation_attribute_target_context"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7", "context_anchor_navigation_attribute_target_node_expression"=>"self", "navigation_attribute_index_position"=>"1", "id"=>"http://base#619409e0-8a40-11e5-86ac-b8ca3afeccc7", "parent"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 95ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes_post_data?parent=http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:56:55) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451815791", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 197ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447451815791&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#update (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:57:03) [POST]
+  Parameters: {"authenticity_token"=>"zeBN8EbrysDS9T57ortsE4MloR+jMONSzJAv05zFKzk=", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7", "index"=>{"index_name"=>"allPersonIdx", "index_title"=>"Person Idx", "context_index_context"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/indexes
+Completed in 32ms | 302 Found [http://localhost/indexes/update]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:57:03) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 95ms (View: 84 | 200 OK [http://localhost/indexes]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:57:06) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 1439ms (View: 1165 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:57:08) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451828363", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 20ms (View: 9 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451828363&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:57:08) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451828396", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 222ms (View: 6 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451828396&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:57:08) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451828430", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 19ms (View: 11 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451828430&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:57:08) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451828458", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 14ms (View: 4 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451828458&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:57:08) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451828495", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 17ms (View: 9 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447451828495&rows=10&page=1&sidx=&sord=]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:57:13) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 73ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:57:14) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8562ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:57:22) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 23ms (View: 5 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:58:02) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 89ms (View: 82 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#destroy (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:58:07) [DELETE]
+  Parameters: {"authenticity_token"=>"x2BVyquY/ZSwKZQSUs0dzrsFyIYe274hteGY1A7V4p0=", "id"=>"http://base#31158ba0-8a3a-11e5-86ac-b8ca3afeccc7"}
+Redirected to http://localhost:3000/landmarks
+Completed in 82ms | 302 Found [http://localhost/landmarks/destroy/http:%2F%2Fbase%2331158ba0-8a3a-11e5-86ac-b8ca3afeccc7]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:58:08) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 97ms (View: 87 | 200 OK [http://localhost/landmarks]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:58:14) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 75040ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:59:29) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 20ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:59:45) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 93ms (View: 84 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:59:48) [GET]
+  Parameters: {"id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 40ms (View: 38 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:59:48) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451988957", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 20ms (View: 11 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447451988957&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:59:49) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447451988991", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 18ms (View: 5 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447451988991&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:59:54) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 94ms (View: 83 | 200 OK [http://localhost/indexes]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 19:59:59) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 1445ms (View: 1166 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:00:01) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452001229", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 15ms (View: 7 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452001229&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:00:01) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452001258", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 242ms (View: 5 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452001258&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:00:01) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452001292", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 29ms (View: 12 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452001292&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:00:01) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452001324", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 14ms (View: 4 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452001324&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:00:01) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452001359", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 21ms (View: 6 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452001359&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#get_resource_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:00:04) [GET]
+  Parameters: {"id"=>"http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 87ms (View: 4 | 200 OK [http://localhost/indexes/get_resource_attributes/http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#get_resource_children_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:00:04) [GET]
+  Parameters: {"children_attribute"=>"context_anchor_navigation_attribute_target_parameters", "id"=>"http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 26ms (View: 11 | 200 OK [http://localhost/indexes/get_resource_children_attributes/http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7?children_attribute=context_anchor_navigation_attribute_target_parameters]
+
+
+Processing IndexesController#context_anchor_attributes_post_data (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:00:17) [POST]
+  Parameters: {"navigation_attribute_name"=>"Default Label", "context_anchor_navigation_attribute_label_expression"=>"self.FOAF::name", "context_anchor_navigation_attribute_target_context"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7", "context_anchor_navigation_attribute_target_node_expression"=>"self", "navigation_attribute_index_position"=>"1", "id"=>"http://base#619409e0-8a40-11e5-86ac-b8ca3afeccc7", "parent"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 95ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes_post_data?parent=http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:00:17) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452017400", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 247ms (View: 7 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452017400&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:00:28) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452028674", "rows"=>"10", "page"=>"1", "sidx"=>"navigation_attribute_name", "sord"=>"asc", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 13ms (View: 4 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452028674&rows=10&page=1&sidx=navigation_attribute_name&sord=asc]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:00:29) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452029401", "rows"=>"10", "page"=>"1", "sidx"=>"navigation_attribute_name", "sord"=>"desc", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 12ms (View: 4 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452029401&rows=10&page=1&sidx=navigation_attribute_name&sord=desc]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:00:33) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452033953", "rows"=>"10", "page"=>"1", "sidx"=>"navigation_attribute_index_position", "sord"=>"asc", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 12ms (View: 5 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452033953&rows=10&page=1&sidx=navigation_attribute_index_position&sord=asc]
+
+
+Processing IndexesController#index_attributes_post_data (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:01:01) [POST]
+  Parameters: {"navigation_attribute_name"=>"Name", "index_navigation_attribute_index"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7", "navigation_attribute_index_position"=>"1", "id"=>"", "parent"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 158ms (View: 4 | 200 OK [http://localhost/indexes/index_attributes_post_data?parent=http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:01:01) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452061309", "rows"=>"10", "page"=>"1", "sidx"=>"navigation_attribute_index_position", "sord"=>"asc", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 171ms (View: 5 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452061309&rows=10&page=1&sidx=navigation_attribute_index_position&sord=asc]
+
+
+Processing IndexesController#get_resource_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:01:04) [GET]
+  Parameters: {"id"=>"http___base_06d71b20-8a52-11e5-86ac-b8ca3afeccc7"}
+Completed in 79ms (View: 6 | 200 OK [http://localhost/indexes/get_resource_attributes/http___base_06d71b20-8a52-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#get_resource_children_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:01:04) [GET]
+  Parameters: {"children_attribute"=>"index_navigation_attribute_index_parameters", "id"=>"http___base_06d71b20-8a52-11e5-86ac-b8ca3afeccc7"}
+Completed in 14ms (View: 6 | 200 OK [http://localhost/indexes/get_resource_children_attributes/http___base_06d71b20-8a52-11e5-86ac-b8ca3afeccc7?children_attribute=index_navigation_attribute_index_parameters]
+
+
+Processing IndexesController#index_attributes_post_data (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:01:11) [POST]
+  Parameters: {"navigation_attribute_name"=>"name", "index_navigation_attribute_index"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7", "navigation_attribute_index_position"=>"1", "id"=>"http://base#06d71b20-8a52-11e5-86ac-b8ca3afeccc7", "parent"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 100ms (View: 8 | 200 OK [http://localhost/indexes/index_attributes_post_data?parent=http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:01:11) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452071257", "rows"=>"10", "page"=>"1", "sidx"=>"navigation_attribute_index_position", "sord"=>"asc", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 211ms (View: 5 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452071257&rows=10&page=1&sidx=navigation_attribute_index_position&sord=asc]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:01:38) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 78ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:01:38) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8916ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:01:47) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 31ms (View: 5 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:01:55) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 147259ms (View: 2 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:05:18) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 22ms (View: 19 | 200 OK [http://localhost/home]
+
+
+Processing ApplicationsController#activate (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:05:22) [POST]
+  Parameters: {"authenticity_token"=>"r9o307uKs0TCMjc/1V2iXY3tryDIQsrfnUJJqqYiuPE=", "id"=>"www2011"}
+Redirected to http://localhost:3000/applications
+Completed in 363ms | 302 Found [http://localhost/applications/activate/www2011]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:05:22) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 24ms (View: 21 | 200 OK [http://localhost/applications]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:05:24) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%2384f5cd60-59bc-11e0-b9e1-00264afffe1d
+Completed in 58ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:05:24) [GET]
+  Parameters: {"id"=>"http://base#84f5cd60-59bc-11e0-b9e1-00264afffe1d"}
+Completed in 26733ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2384f5cd60-59bc-11e0-b9e1-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:05:51) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 30ms (View: 7 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:05:56) [GET]
+  Parameters: {"id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 78752ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:07:15) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 364ms (View: 314 | 200 OK [http://localhost/navigation]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:07:15) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 56ms (View: 11 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:08:42) [GET]
+  Parameters: {"id"=>"http://base#d7c230b0-59b7-11e0-b9e1-00264afffe1d"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 43ms (View: 38 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%23d7c230b0-59b7-11e0-b9e1-00264afffe1d]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:08:43) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452523308", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#d7c230b0-59b7-11e0-b9e1-00264afffe1d"}
+Completed in 28ms (View: 15 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%23d7c230b0-59b7-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447452523308&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:08:43) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452523342", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#d7c230b0-59b7-11e0-b9e1-00264afffe1d"}
+Completed in 18ms (View: 7 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%23d7c230b0-59b7-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447452523342&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:08:57) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 150ms (View: 141 | 200 OK [http://localhost/contexts]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:08:59) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 186ms (View: 176 | 200 OK [http://localhost/indexes]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:05) [GET]
+  Parameters: {"id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 2761ms (View: 2267 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:08) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452548422", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 18ms (View: 6 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447452548422&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:08) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452548457", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 236ms (View: 6 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447452548457&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:08) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452548485", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 188ms (View: 5 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447452548485&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:09) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452548522", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 39ms (View: 4 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447452548522&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:09) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452548553", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 14ms (View: 7 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447452548553&rows=10&page=1&sidx=&sord=]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:39) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 99ms (View: 91 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:41) [GET]
+  Parameters: {"id"=>"http://base#ba8d6890-59bf-11e0-b9e1-00264afffe1d"}
+Rendering template within layouts/application
+Rendering landmarks/edit
+Completed in 762ms (View: 87 | 200 OK [http://localhost/landmarks/edit/http:%2F%2Fbase%23ba8d6890-59bf-11e0-b9e1-00264afffe1d]
+
+
+Processing LandmarksController#target_index_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:42) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452582473", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#ba9afd20-59bf-11e0-b9e1-00264afffe1d"}
+Completed in 16ms (View: 8 | 200 OK [http://localhost/landmarks/target_index_parameters/http%3A%2F%2Fbase%23ba9afd20-59bf-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447452582473&rows=10&page=1&sidx=&sord=]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:47) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 27ms (View: 24 | 200 OK [http://localhost/home]
+
+
+Processing ApplicationsController#activate (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:53) [POST]
+  Parameters: {"authenticity_token"=>"r9o307uKs0TCMjc/1V2iXY3tryDIQsrfnUJJqqYiuPE=", "id"=>"congresso"}
+Redirected to http://localhost:3000/applications
+Completed in 314ms | 302 Found [http://localhost/applications/activate/congresso]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:53) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 22ms (View: 21 | 200 OK [http://localhost/applications]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:55) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 64ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:09:55) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8793ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:04) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 101ms (View: 87 | 200 OK [http://localhost/navigation]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:10) [GET]
+  Parameters: {"id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 37ms (View: 35 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:11) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452611077", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 45ms (View: 10 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452611077&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:11) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452611109", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 17ms (View: 8 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452611109&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#update (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:26) [POST]
+  Parameters: {"authenticity_token"=>"r9o307uKs0TCMjc/1V2iXY3tryDIQsrfnUJJqqYiuPE=", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7", "context"=>{"context_name"=>"allPerson", "context_title"=>"Person", "context_query"=>"selects {\r\na FOAF::Person\r\norder FOAF::name\r\n}"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/contexts
+Completed in 92ms | 302 Found [http://localhost/contexts/update]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:26) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 92ms (View: 83 | 200 OK [http://localhost/contexts]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:28) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 122ms (View: 111 | 200 OK [http://localhost/indexes]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:33) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 1321ms (View: 1115 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:35) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452635307", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 313ms (View: 6 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452635307&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:35) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452635340", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 219ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452635340&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:35) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452635368", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 29ms (View: 9 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452635368&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:35) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452635412", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 13ms (View: 4 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452635412&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:36) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452635441", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 12ms (View: 5 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452635441&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#get_resource_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:37) [GET]
+  Parameters: {"id"=>"http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 97ms (View: 4 | 200 OK [http://localhost/indexes/get_resource_attributes/http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#get_resource_children_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:37) [GET]
+  Parameters: {"children_attribute"=>"context_anchor_navigation_attribute_target_parameters", "id"=>"http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 33ms (View: 11 | 200 OK [http://localhost/indexes/get_resource_children_attributes/http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7?children_attribute=context_anchor_navigation_attribute_target_parameters]
+
+
+Processing IndexesController#context_anchor_attributes_post_data (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:51) [POST]
+  Parameters: {"navigation_attribute_name"=>"Default Label", "context_anchor_navigation_attribute_label_expression"=>"self.foaf::name.first", "context_anchor_navigation_attribute_target_context"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7", "context_anchor_navigation_attribute_target_node_expression"=>"self", "navigation_attribute_index_position"=>"1", "id"=>"http://base#619409e0-8a40-11e5-86ac-b8ca3afeccc7", "parent"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 96ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes_post_data?parent=http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:10:51) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452651475", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 277ms (View: 5 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452651475&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#get_resource_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:04) [GET]
+  Parameters: {"id"=>"http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 93ms (View: 4 | 200 OK [http://localhost/indexes/get_resource_attributes/http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#get_resource_children_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:04) [GET]
+  Parameters: {"children_attribute"=>"context_anchor_navigation_attribute_target_parameters", "id"=>"http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 30ms (View: 6 | 200 OK [http://localhost/indexes/get_resource_children_attributes/http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7?children_attribute=context_anchor_navigation_attribute_target_parameters]
+
+
+Processing IndexesController#context_anchor_attributes_post_data (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:08) [POST]
+  Parameters: {"navigation_attribute_name"=>"Person", "context_anchor_navigation_attribute_label_expression"=>"self.foaf::name.first", "context_anchor_navigation_attribute_target_context"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7", "context_anchor_navigation_attribute_target_node_expression"=>"self", "navigation_attribute_index_position"=>"1", "id"=>"http://base#619409e0-8a40-11e5-86ac-b8ca3afeccc7", "parent"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 110ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes_post_data?parent=http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:09) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452669032", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 215ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452669032&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#update (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:11) [POST]
+  Parameters: {"authenticity_token"=>"r9o307uKs0TCMjc/1V2iXY3tryDIQsrfnUJJqqYiuPE=", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7", "index"=>{"index_name"=>"allPersonIdx", "index_title"=>"Person Idx", "context_index_context"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/indexes
+Completed in 36ms | 302 Found [http://localhost/indexes/update]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:11) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 94ms (View: 84 | 200 OK [http://localhost/indexes]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:15) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 88ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:15) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8347ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:23) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 84ms (View: 7 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:26) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 233ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:47) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 90ms (View: 81 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:51) [GET]
+  Parameters: {"id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 88ms (View: 86 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:51) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452711491", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 23ms (View: 10 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452711491&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:51) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452711527", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 15ms (View: 5 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452711527&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#update (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:58) [POST]
+  Parameters: {"authenticity_token"=>"iroab0nfokjzGFynuznzxCtvWkH/KcyCQeCWgylEElU=", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7", "context"=>{"context_name"=>"allPerson", "context_title"=>"Person", "context_query"=>"selects {\r\na FOAF::Person\r\nsort FOAF::name\r\n}"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/contexts
+Completed in 85ms | 302 Found [http://localhost/contexts/update]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:11:58) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 90ms (View: 80 | 200 OK [http://localhost/contexts]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:03) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 65ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:03) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8560ms (View: 2 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:12) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 27ms (View: 6 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:21) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 236ms (View: 2 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:35) [GET]
+  Parameters: {"id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 37ms (View: 31 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:35) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452755378", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 64ms (View: 6 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452755378&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:35) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452755418", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 15ms (View: 7 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452755418&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#update (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:42) [POST]
+  Parameters: {"authenticity_token"=>"iroab0nfokjzGFynuznzxCtvWkH/KcyCQeCWgylEElU=", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7", "context"=>{"context_name"=>"allPerson", "context_title"=>"Person", "context_query"=>"selects {\r\na FOAF::Person\r\n}"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/contexts
+Completed in 84ms | 302 Found [http://localhost/contexts/update]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:42) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 98ms (View: 88 | 200 OK [http://localhost/contexts]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:45) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 76ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:45) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8783ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:54) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 19ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:12:56) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 96121ms (View: 4 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:14:47) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 93ms (View: 83 | 200 OK [http://localhost/indexes]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:14:51) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 1381ms (View: 1183 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:14:52) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452892875", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 248ms (View: 6 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452892875&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:14:53) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452892909", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 232ms (View: 5 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452892909&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:14:53) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452892948", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 14ms (View: 7 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452892948&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:14:53) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452892981", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 22ms (View: 10 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452892981&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:14:53) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452893020", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 13ms (View: 5 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452893020&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#get_resource_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:15:01) [GET]
+  Parameters: {"id"=>"http___base_06d71b20-8a52-11e5-86ac-b8ca3afeccc7"}
+Completed in 72ms (View: 4 | 200 OK [http://localhost/indexes/get_resource_attributes/http___base_06d71b20-8a52-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#get_resource_children_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:15:01) [GET]
+  Parameters: {"children_attribute"=>"index_navigation_attribute_index_parameters", "id"=>"http___base_06d71b20-8a52-11e5-86ac-b8ca3afeccc7"}
+Completed in 27ms (View: 5 | 200 OK [http://localhost/indexes/get_resource_children_attributes/http___base_06d71b20-8a52-11e5-86ac-b8ca3afeccc7?children_attribute=index_navigation_attribute_index_parameters]
+
+
+Processing IndexesController#index_attributes_post_data (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:15:03) [POST]
+  Parameters: {"navigation_attribute_name"=>"name", "index_navigation_attribute_index"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7", "navigation_attribute_index_position"=>"1", "id"=>"http://base#06d71b20-8a52-11e5-86ac-b8ca3afeccc7", "oper"=>"Delete", "parent"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 33ms (View: 5 | 200 OK [http://localhost/indexes/index_attributes_post_data?parent=http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:15:03) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447452903687", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 20ms (View: 5 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447452903687&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#update (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:15:12) [POST]
+  Parameters: {"authenticity_token"=>"iroab0nfokjzGFynuznzxCtvWkH/KcyCQeCWgylEElU=", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7", "index"=>{"index_name"=>"allPersonIdx", "index_title"=>"Person Idx", "context_index_context"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/indexes
+Completed in 33ms | 302 Found [http://localhost/indexes/update]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:15:12) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 96ms (View: 85 | 200 OK [http://localhost/indexes]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:15:14) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 111ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:15:14) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8496ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:15:23) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 19ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:15:25) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 49871ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:16:15) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 15ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:09) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 1291ms (View: 1089 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:10) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447453450904", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 20ms (View: 10 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447453450904&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:11) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447453450943", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 272ms (View: 5 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447453450943&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:11) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447453450976", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 15ms (View: 8 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447453450976&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:11) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447453451015", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 14ms (View: 5 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447453451015&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:11) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447453451050", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 13ms (View: 4 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447453451050&rows=10&page=1&sidx=&sord=]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:27) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 57ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:28) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 20ms (View: 5 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:28) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 31ms (View: 7 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#context (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:34) [GET]
+  Parameters: {"node"=>"http://xmlns.com/foaf/0.1/Person", "id"=>"http://base#153ddbb0-e082-11df-aab6-00264afffe1d"}
+Completed in 2567ms (View: 1 | 200 OK [http://localhost/execute/context/http%3A%2F%2Fbase%23153ddbb0-e082-11df-aab6-00264afffe1d?node=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:37) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 24ms (View: 7 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#context (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:42) [GET]
+  Parameters: {"node"=>"http://www.owl-ontologies.com/ParliamentOntology.owl#State_Organization", "id"=>"http://base#153ddbb0-e082-11df-aab6-00264afffe1d"}
+Completed in 2597ms (View: 1 | 200 OK [http://localhost/execute/context/http%3A%2F%2Fbase%23153ddbb0-e082-11df-aab6-00264afffe1d?node=http%3A%2F%2Fwww.owl-ontologies.com%2FParliamentOntology.owl%23State_Organization]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:45) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 19ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#context (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:47) [GET]
+  Parameters: {"node"=>"http://xmlns.com/foaf/0.1/Person", "id"=>"http://base#153ddbb0-e082-11df-aab6-00264afffe1d"}
+Completed in 15ms (View: 5 | 200 OK [http://localhost/execute/context/http%3A%2F%2Fbase%23153ddbb0-e082-11df-aab6-00264afffe1d?node=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:47) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 17ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#context (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:59) [GET]
+  Parameters: {"node"=>"http://xmlns.com/foaf/0.1/Person", "id"=>"http://base#153ddbb0-e082-11df-aab6-00264afffe1d"}
+Completed in 17ms (View: 5 | 200 OK [http://localhost/execute/context/http%3A%2F%2Fbase%23153ddbb0-e082-11df-aab6-00264afffe1d?node=http%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2FPerson]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:24:59) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 14ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing IndexesController#get_resource_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:25:09) [GET]
+  Parameters: {"id"=>"http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 84ms (View: 7 | 200 OK [http://localhost/indexes/get_resource_attributes/http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#get_resource_children_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:25:09) [GET]
+  Parameters: {"children_attribute"=>"context_anchor_navigation_attribute_target_parameters", "id"=>"http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 23ms (View: 7 | 200 OK [http://localhost/indexes/get_resource_children_attributes/http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7?children_attribute=context_anchor_navigation_attribute_target_parameters]
+
+
+Processing IndexesController#context_anchor_attributes_post_data (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:26:41) [POST]
+  Parameters: {"navigation_attribute_name"=>"Person", "context_anchor_navigation_attribute_label_expression"=>"self.foaf::firstName.first", "context_anchor_navigation_attribute_target_context"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7", "context_anchor_navigation_attribute_target_node_expression"=>"self", "navigation_attribute_index_position"=>"1", "id"=>"http://base#619409e0-8a40-11e5-86ac-b8ca3afeccc7", "parent"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 100ms (View: 5 | 200 OK [http://localhost/indexes/context_anchor_attributes_post_data?parent=http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:26:41) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447453601598", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 246ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447453601598&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#update (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:26:45) [POST]
+  Parameters: {"authenticity_token"=>"waPJD4bsfKihvdB6XvS3AxQp7CYpc9aCXCykDnINLyo=", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7", "index"=>{"index_name"=>"allPersonIdx", "index_title"=>"Person Idx", "context_index_context"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/indexes
+Completed in 32ms | 302 Found [http://localhost/indexes/update]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:26:45) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 97ms (View: 86 | 200 OK [http://localhost/indexes]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:26:47) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 63ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:26:47) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 8816ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:26:56) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 23ms (View: 5 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:26:59) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 49836ms (View: 1 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:27:49) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 19ms (View: 6 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#context (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:27:57) [GET]
+  Parameters: {"node"=>"http://127.0.0.1:3333/ADRIANO_ELI_CORREA", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 140114ms (View: 1 | 200 OK [http://localhost/execute/context/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?node=http%3A%2F%2F127.0.0.1%3A3333%2FADRIANO_ELI_CORREA]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 20:30:17) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 20ms (View: 5 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#context (for 0:0:0:0:0:0:0:1 at 2015-11-13 21:18:43) [GET]
+  Parameters: {"node"=>"http://127.0.0.1:3333/AECIO_NEVES_DA_CUNHA", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 128526ms (View: 1 | 200 OK [http://localhost/execute/context/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?node=http%3A%2F%2F127.0.0.1%3A3333%2FAECIO_NEVES_DA_CUNHA]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 21:20:52) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 18ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#context (for 0:0:0:0:0:0:0:1 at 2015-11-13 21:20:57) [GET]
+  Parameters: {"node"=>"http://127.0.0.1:3333/Aecio_Cunha", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 122900ms (View: 1 | 200 OK [http://localhost/execute/context/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?node=http%3A%2F%2F127.0.0.1%3A3333%2FAecio_Cunha]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-13 21:23:00) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 18ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ApplicationsController#shutdown (for 0:0:0:0:0:0:0:1 at 2015-11-13 21:29:48) [GET]
+Redirected to http://localhost:3000/applications
+Completed in 90ms | 302 Found [http://localhost/applications/shutdown]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-13 21:29:48) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 26ms (View: 24 | 200 OK [http://localhost/applications]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:10:03) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 400ms (View: 336 | 200 OK [http://localhost/navigation]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:10:07) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 184ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:10:08) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 9074ms (View: 0 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:10:17) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 40ms (View: 16 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:10:19) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 83628ms (View: 4 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:11:43) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 24ms (View: 8 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:03) [GET]
+  Parameters: {"id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 76ms (View: 72 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:04) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848724162", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 68ms (View: 12 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447848724162&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:04) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848724210", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 36ms (View: 12 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447848724210&rows=10&page=1&sidx=&sord=]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:32) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 56ms (View: 56 | 200 OK [http://localhost/home]
+
+
+Processing ApplicationsController#activate (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:36) [POST]
+  Parameters: {"authenticity_token"=>"gFwP2wSPPHyhrebUh/Yy1ayRimNJ7SxncoSAVWVY63w=", "id"=>"www2011"}
+Redirected to http://localhost:3000/applications
+Completed in 276ms | 302 Found [http://localhost/applications/activate/www2011]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:37) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 628ms (View: 624 | 200 OK [http://localhost/applications]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:40) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 284ms (View: 272 | 200 OK [http://localhost/navigation]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:46) [GET]
+  Parameters: {"id"=>"http://base#d7c230b0-59b7-11e0-b9e1-00264afffe1d"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 60ms (View: 52 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%23d7c230b0-59b7-11e0-b9e1-00264afffe1d]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:46) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848766638", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#d7c230b0-59b7-11e0-b9e1-00264afffe1d"}
+Completed in 36ms (View: 8 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%23d7c230b0-59b7-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447848766638&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:46) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848766670", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#d7c230b0-59b7-11e0-b9e1-00264afffe1d"}
+Completed in 28ms (View: 12 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%23d7c230b0-59b7-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447848766670&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:52) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 235ms (View: 219 | 200 OK [http://localhost/indexes]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:57) [GET]
+  Parameters: {"id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 2450ms (View: 2118 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:59) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848779892", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 16ms (View: 4 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447848779892&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:12:59) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848779928", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 224ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447848779928&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:00) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848779964", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 140ms (View: 4 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447848779964&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:00) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848779992", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 32ms (View: 20 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447848779992&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:00) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848780028", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#9b6a77f0-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 12ms (View: 4 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%239b6a77f0-59ba-11e0-b9e1-00264afffe1d?q=1&_search=false&nd=1447848780028&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#get_resource_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:05) [GET]
+  Parameters: {"id"=>"http___base_c231af20-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 77ms (View: 4 | 200 OK [http://localhost/indexes/get_resource_attributes/http___base_c231af20-59ba-11e0-b9e1-00264afffe1d]
+
+
+Processing IndexesController#get_resource_children_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:05) [GET]
+  Parameters: {"children_attribute"=>"context_anchor_navigation_attribute_target_parameters", "id"=>"http___base_c231af20-59ba-11e0-b9e1-00264afffe1d"}
+Completed in 16ms (View: 4 | 200 OK [http://localhost/indexes/get_resource_children_attributes/http___base_c231af20-59ba-11e0-b9e1-00264afffe1d?children_attribute=context_anchor_navigation_attribute_target_parameters]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:24) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 32ms (View: 32 | 200 OK [http://localhost/home]
+
+
+Processing ApplicationsController#activate (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:28) [POST]
+  Parameters: {"authenticity_token"=>"gFwP2wSPPHyhrebUh/Yy1ayRimNJ7SxncoSAVWVY63w=", "id"=>"congresso"}
+Redirected to http://localhost:3000/applications
+Completed in 256ms | 302 Found [http://localhost/applications/activate/congresso]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:28) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 24ms (View: 20 | 200 OK [http://localhost/applications]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:30) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 114ms (View: 98 | 200 OK [http://localhost/navigation]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:33) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 92ms (View: 80 | 200 OK [http://localhost/indexes]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:35) [GET]
+  Parameters: {"id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 1887ms (View: 1666 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:37) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848817891", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 16ms (View: 4 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447848817891&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:37) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848817931", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 240ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447848817931&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:38) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848817983", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 24ms (View: 8 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447848817983&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:38) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848818015", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 12ms (View: 4 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447848818015&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:38) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848818039", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2083d320-8a38-11e5-a8a1-b8ca3afeccc7"}
+Completed in 12ms (View: 4 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%232083d320-8a38-11e5-a8a1-b8ca3afeccc7?q=1&_search=false&nd=1447848818039&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:45) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 1303ms (View: 1104 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:47) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848826979", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 16ms (View: 4 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447848826979&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:47) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848827011", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 248ms (View: 8 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447848827011&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:47) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848827059", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 20ms (View: 12 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447848827059&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:47) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848827091", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 16ms (View: 4 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447848827091&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:47) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848827115", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 16ms (View: 4 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447848827115&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#get_resource_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:54) [GET]
+  Parameters: {"id"=>"http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 84ms (View: 20 | 200 OK [http://localhost/indexes/get_resource_attributes/http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#get_resource_children_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:13:54) [GET]
+  Parameters: {"children_attribute"=>"context_anchor_navigation_attribute_target_parameters", "id"=>"http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 8ms (View: 4 | 200 OK [http://localhost/indexes/get_resource_children_attributes/http___base_619409e0-8a40-11e5-86ac-b8ca3afeccc7?children_attribute=context_anchor_navigation_attribute_target_parameters]
+
+
+Processing IndexesController#context_anchor_attributes_post_data (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:14:14) [POST]
+  Parameters: {"navigation_attribute_name"=>"Person", "context_anchor_navigation_attribute_label_expression"=>"self.foaf::firstName.first", "context_anchor_navigation_attribute_target_context"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7", "context_anchor_navigation_attribute_target_node_expression"=>"self", "navigation_attribute_index_position"=>"1", "id"=>"http://base#619409e0-8a40-11e5-86ac-b8ca3afeccc7", "parent"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 68ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes_post_data?parent=http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:14:14) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848854168", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 116ms (View: 4 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447848854168&rows=10&page=1&sidx=&sord=]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:14:17) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 44ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:14:17) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 9977ms (View: 4 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:14:27) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 44ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:14:33) [GET]
+  Parameters: {"id"=>"http://base#61b32aa0-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 57241ms (View: 0 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%2361b32aa0-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:15:31) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 128ms (View: 112 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:15:31) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 107ms (View: 99 | 200 OK [http://localhost/contexts]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:15:31) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 13ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:15:49) [GET]
+  Parameters: {"id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 63ms (View: 57 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:15:49) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848949753", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 84ms (View: 8 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447848949753&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:15:50) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848949785", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#61838f20-8a40-11e5-86ac-b8ca3afeccc7"}
+Completed in 8ms (View: 0 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%2361838f20-8a40-11e5-86ac-b8ca3afeccc7?q=1&_search=false&nd=1447848949785&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:15:55) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 78ms (View: 70 | 200 OK [http://localhost/indexes]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:15:56) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 82ms (View: 70 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#new (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:15:58) [GET]
+Rendering template within layouts/application
+Rendering contexts/new
+Completed in 32ms (View: 28 | 200 OK [http://localhost/contexts/new]
+
+
+Processing ContextsController#create (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:16:22) [POST]
+  Parameters: {"authenticity_token"=>"8mMnpS67mgQlrnpj8E0aL11iof3Wtzx+msM1/6NKlEM=", "context"=>{"context_name"=>"MemberRole", "context_title"=>"Member Role", "context_query"=>"selects {\r\na rdf::Member_Role\r\n}"}, "commit"=>"Create"}
+Redirected to http://localhost:3000/contexts/edit/http:%2F%2Fbase%232e547d10-8dee-11e5-86c1-ac7ba1c8be92
+Completed in 552ms | 302 Found [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:16:22) [GET]
+  Parameters: {"id"=>"http://base#2e547d10-8dee-11e5-86c1-ac7ba1c8be92"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 44ms (View: 40 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%232e547d10-8dee-11e5-86c1-ac7ba1c8be92]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:16:23) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848983269", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2e547d10-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 28ms (View: 12 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%232e547d10-8dee-11e5-86c1-ac7ba1c8be92?q=1&_search=false&nd=1447848983269&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:16:23) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447848983301", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2e547d10-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 20ms (View: 4 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%232e547d10-8dee-11e5-86c1-ac7ba1c8be92?q=1&_search=false&nd=1447848983301&rows=10&page=1&sidx=&sord=]
+
+
+Processing LandmarksController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:16:27) [GET]
+Rendering template within layouts/application
+Rendering landmarks/index
+Completed in 101ms (View: 85 | 200 OK [http://localhost/landmarks]
+
+
+Processing LandmarksController#new (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:16:30) [GET]
+Rendering template within layouts/application
+Rendering landmarks/new
+Completed in 789ms (View: 442 | 200 OK [http://localhost/landmarks/new]
+
+
+Processing LandmarksController#create (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:16:50) [POST]
+  Parameters: {"authenticity_token"=>"8mMnpS67mgQlrnpj8E0aL11iof3Wtzx+msM1/6NKlEM=", "landmark"=>{"landmark_name"=>"MemberRole", "landmark_position"=>"1", "type"=>"index_anchor"}, "index_anchor_navigation_attribute"=>{"index_anchor_navigation_attribute_label_expression"=>"'Member Role'", "index_anchor_navigation_attribute_target_index"=>"http://base#2e8725d0-8dee-11e5-86c1-ac7ba1c8be92"}, "context_anchor_navigation_attribute"=>{"context_anchor_navigation_attribute_label_expression"=>"", "context_anchor_navigation_attribute_target_context"=>"http://shdm#anyContext", "context_anchor_navigation_attribute_target_node_expression"=>""}, "commit"=>"Create"}
+Redirected to http://localhost:3000/landmarks/edit/http:%2F%2Fbase%233eea1810-8dee-11e5-86c1-ac7ba1c8be92
+Completed in 201ms | 302 Found [http://localhost/landmarks]
+
+
+Processing LandmarksController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:16:50) [GET]
+  Parameters: {"id"=>"http://base#3eea1810-8dee-11e5-86c1-ac7ba1c8be92"}
+Rendering template within layouts/application
+Rendering landmarks/edit
+Completed in 477ms (View: 96 | 200 OK [http://localhost/landmarks/edit/http:%2F%2Fbase%233eea1810-8dee-11e5-86c1-ac7ba1c8be92]
+
+
+Processing LandmarksController#target_index_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:16:51) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447849011171", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#3ef42a30-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 12ms (View: 4 | 200 OK [http://localhost/landmarks/target_index_parameters/http%3A%2F%2Fbase%233ef42a30-8dee-11e5-86c1-ac7ba1c8be92?q=1&_search=false&nd=1447849011171&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:16:59) [GET]
+Rendering template within layouts/application
+Rendering indexes/index
+Completed in 80ms (View: 68 | 200 OK [http://localhost/indexes]
+
+
+Processing IndexesController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:08) [GET]
+  Parameters: {"id"=>"http://base#2e8725d0-8dee-11e5-86c1-ac7ba1c8be92"}
+Rendering template within layouts/application
+Rendering indexes/edit
+Completed in 2041ms (View: 1861 | 200 OK [http://localhost/indexes/edit/http:%2F%2Fbase%232e8725d0-8dee-11e5-86c1-ac7ba1c8be92]
+
+
+Processing IndexesController#index_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:10) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447849030831", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2e8725d0-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 16ms (View: 4 | 200 OK [http://localhost/indexes/index_attributes/http%3A%2F%2Fbase%232e8725d0-8dee-11e5-86c1-ac7ba1c8be92?q=1&_search=false&nd=1447849030831&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#context_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:10) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447849030859", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2e8725d0-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 200ms (View: 8 | 200 OK [http://localhost/indexes/context_anchor_attributes/http%3A%2F%2Fbase%232e8725d0-8dee-11e5-86c1-ac7ba1c8be92?q=1&_search=false&nd=1447849030859&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#index_anchor_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:11) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447849030895", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2e8725d0-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 20ms (View: 8 | 200 OK [http://localhost/indexes/index_anchor_attributes/http%3A%2F%2Fbase%232e8725d0-8dee-11e5-86c1-ac7ba1c8be92?q=1&_search=false&nd=1447849030895&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#computed_attributes (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:11) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447849030923", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2e8725d0-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 12ms (View: 4 | 200 OK [http://localhost/indexes/computed_attributes/http%3A%2F%2Fbase%232e8725d0-8dee-11e5-86c1-ac7ba1c8be92?q=1&_search=false&nd=1447849030923&rows=10&page=1&sidx=&sord=]
+
+
+Processing IndexesController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:11) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447849030955", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2e8725d0-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 12ms (View: 4 | 200 OK [http://localhost/indexes/pre_conditions/http%3A%2F%2Fbase%232e8725d0-8dee-11e5-86c1-ac7ba1c8be92?q=1&_search=false&nd=1447849030955&rows=10&page=1&sidx=&sord=]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:25) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 48ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:25) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 9253ms (View: 0 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:35) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 20ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:37) [GET]
+  Parameters: {"id"=>"http://base#2e8725d0-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 217ms (View: 0 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%232e8725d0-8dee-11e5-86c1-ac7ba1c8be92]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:52) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 72ms (View: 60 | 200 OK [http://localhost/contexts]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:56) [GET]
+  Parameters: {"id"=>"http://base#2e547d10-8dee-11e5-86c1-ac7ba1c8be92"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 40ms (View: 36 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%232e547d10-8dee-11e5-86c1-ac7ba1c8be92]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:56) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447849076566", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2e547d10-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 60ms (View: 8 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%232e547d10-8dee-11e5-86c1-ac7ba1c8be92?q=1&_search=false&nd=1447849076566&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:17:56) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447849076606", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2e547d10-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 24ms (View: 8 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%232e547d10-8dee-11e5-86c1-ac7ba1c8be92?q=1&_search=false&nd=1447849076606&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#update (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:18:03) [POST]
+  Parameters: {"authenticity_token"=>"8mMnpS67mgQlrnpj8E0aL11iof3Wtzx+msM1/6NKlEM=", "id"=>"http://base#2e547d10-8dee-11e5-86c1-ac7ba1c8be92", "context"=>{"context_name"=>"MemberRole", "context_title"=>"Member Role", "context_query"=>"selects {\r\na owl::Member_Role\r\n}"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/contexts
+Completed in 72ms | 302 Found [http://localhost/contexts/update]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:18:03) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 132ms (View: 124 | 200 OK [http://localhost/contexts]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:18:06) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 56ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:18:06) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 6770ms (View: 0 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:18:13) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 20ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:18:20) [GET]
+  Parameters: {"id"=>"http://base#2e8725d0-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 251ms (View: 0 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%232e8725d0-8dee-11e5-86c1-ac7ba1c8be92]
+
+
+Processing ContextsController#edit (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:18:33) [GET]
+  Parameters: {"id"=>"http://base#2e547d10-8dee-11e5-86c1-ac7ba1c8be92"}
+Rendering template within layouts/application
+Rendering contexts/edit
+Completed in 44ms (View: 40 | 200 OK [http://localhost/contexts/edit/http:%2F%2Fbase%232e547d10-8dee-11e5-86c1-ac7ba1c8be92]
+
+
+Processing ContextsController#context_parameters (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:18:34) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447849114306", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2e547d10-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 16ms (View: 4 | 200 OK [http://localhost/contexts/context_parameters/http%3A%2F%2Fbase%232e547d10-8dee-11e5-86c1-ac7ba1c8be92?q=1&_search=false&nd=1447849114306&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#pre_conditions (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:18:34) [GET]
+  Parameters: {"q"=>"1", "_search"=>"false", "nd"=>"1447849114342", "rows"=>"10", "page"=>"1", "sidx"=>"", "sord"=>"", "id"=>"http://base#2e547d10-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 12ms (View: 4 | 200 OK [http://localhost/contexts/pre_conditions/http%3A%2F%2Fbase%232e547d10-8dee-11e5-86c1-ac7ba1c8be92?q=1&_search=false&nd=1447849114342&rows=10&page=1&sidx=&sord=]
+
+
+Processing ContextsController#update (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:19:49) [POST]
+  Parameters: {"authenticity_token"=>"8mMnpS67mgQlrnpj8E0aL11iof3Wtzx+msM1/6NKlEM=", "id"=>"http://base#2e547d10-8dee-11e5-86c1-ac7ba1c8be92", "context"=>{"context_name"=>"MemberRole", "context_title"=>"Member Role", "context_query"=>"selects {\r\na OWL::Member_Role\r\n}"}, "commit"=>"Save"}
+Redirected to http://localhost:3000/contexts
+Completed in 85ms | 302 Found [http://localhost/contexts/update]
+
+
+Processing ContextsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:19:49) [GET]
+Rendering template within layouts/application
+Rendering contexts/index
+Completed in 142ms (View: 134 | 200 OK [http://localhost/contexts]
+
+
+Processing ExecuteController#init (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:19:55) [GET]
+Redirected to http://localhost:3000/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d
+Completed in 80ms | 302 Found [http://localhost/execute/init]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:19:55) [GET]
+  Parameters: {"id"=>"http://base#331b9bc0-e07f-11df-aab6-00264afffe1d"}
+Completed in 7885ms (View: 4 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%23331b9bc0-e07f-11df-aab6-00264afffe1d]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:20:03) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 21ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ExecuteController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:20:06) [GET]
+  Parameters: {"id"=>"http://base#2e8725d0-8dee-11e5-86c1-ac7ba1c8be92"}
+Completed in 192ms (View: 0 | 200 OK [http://localhost/execute/index/http%3A%2F%2Fbase%232e8725d0-8dee-11e5-86c1-ac7ba1c8be92]
+
+
+Processing ExecuteController#css (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:20:07) [GET]
+  Parameters: {"id"=>"aqueous"}
+Completed in 16ms (View: 4 | 200 OK [http://localhost/execute/css/aqueous]
+
+
+Processing ApplicationsController#shutdown (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:20:22) [GET]
+Redirected to http://localhost:3000/applications
+Completed in 76ms | 302 Found [http://localhost/applications/shutdown]
+
+
+Processing ApplicationsController#index (for 0:0:0:0:0:0:0:1 at 2015-11-18 10:20:22) [GET]
+Rendering template within layouts/application
+Rendering applications/index
+Completed in 28ms (View: 24 | 200 OK [http://localhost/applications]
